@@ -7,7 +7,7 @@ client::client(int argc, char* argv[]) : argc_(argc), argv_(argv) {}
 int client::run() {
   if (argc_ != 3) {
     std::cerr << "Usage: http-client-sync <url> "
-                 "<request>\n"// Copyright 2020 Kavykin Andrey Kaviandr@yandex.ru
+                 "<request>\n"//
 
               << "Example:\n"
               << "    ./cmake-build-debug/tests  "
