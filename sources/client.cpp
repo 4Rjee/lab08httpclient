@@ -26,7 +26,6 @@ int client::run() {
 
     auto const results = resolver.resolve(parametrs.host, parametrs.port);
     stream.connect(results);
-// Copyright 2020 Kavykin Andrey Kaviandr@yandex.ru
 
     http::string_body::value_type body = parametrs.request_body;
 
